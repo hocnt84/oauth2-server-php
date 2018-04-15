@@ -35,5 +35,6 @@
         "firebase/php-jwt": "~2.2 is required to use JWT features",
         "mongodb/mongodb": "^1.1 is required to use MongoDB storage"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
