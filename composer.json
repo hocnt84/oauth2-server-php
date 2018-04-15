@@ -1,5 +1,5 @@
 {
-    "name": "bshaffer/oauth2-server-php",
+    "name": "hocnt84/oauth2-server-php",
     "description":"OAuth2 Server for PHP",
     "keywords":["oauth","oauth2","auth"],
     "type":"library",
@@ -13,7 +13,9 @@
     ],
     "homepage": "http://github.com/bshaffer/oauth2-server-php",
     "autoload": {
-        "psr-0": { "OAuth2": "src/" }
+        "psr-4": {
+            "OAuth2": "src/"
+        }
     },
     "require":{
         "php":">=5.3.9"
